@@ -1,0 +1,140 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Straling in de Ruimte</title>
+    <style>
+	.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.links {
+    width: 30%;
+}
+
+.rechts {
+    width: 70%;
+    padding-left: 30px;
+}
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background: radial-gradient(ellipse at bottom, #0b1a2a 0%, #000000 100%);
+            overflow-x: hidden;
+        }
+
+        /* Sterren achtergrond */
+        .stars {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(2px 2px at 20% 30%, white, transparent),
+                              radial-gradient(1.5px 1.5px at 70% 80%, white, transparent),
+                              radial-gradient(1.2px 1.2px at 40% 60%, white, transparent),
+                              radial-gradient(1.8px 1.8px at 90% 20%, white, transparent);
+            background-repeat: repeat;
+            background-size: 300px 300px;
+            animation: moveStars 120s linear infinite;
+            z-index: -1;
+        }
+
+        
+            to { background-position: 10000px 5000px; }
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        p.subtitle {
+            font-size: 1.3em;
+            opacity: 0.8;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0;
+            background: none;
+            border-radius: 0;
+            backdrop-filter: none;
+        }
+
+        h2 {
+            border: none;
+            padding-bottom: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            opacity: 0.6;
+            font-size: 0.9em;
+        }
+    @keyframes moveStars {
+            from { transform: translateY(0); }
+            to { transform: translateY(-1000px); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="stars"></div>
+<header>
+    <h1>Straling in de Ruimte</h1>
+    <p class="subtitle"></p>
+</header>
+
+
+
+
+<section>
+    <h2></h2>
+    <p></p>
+</section>
+
+<section>
+    <h2></h2>
+    <ul>
+        <li></li>
+    </ul>
+</section>
+<main class="container">
+  <div class="links">
+    <nav>
+      <ul>
+<li><a href="natuurkundepo.html">Home</a></li>
+<li><a href="chronologie.html">chronologie van de ontdekken van straling in de ruimte</a></li>
+<li><a href="soortestralingen.html">soorten Straling in de Ruimte</a></li>
+<li><a href="platenensterrenmetstraling.html">planeten en Sterren met Straling</a></li>
+</ul>
+    </nav>
+  </div>
+
+  <div class="rechts">
+    <h2>wist je dat?</h2>
+         <p>als je een banaan eet je een heel klein beetje straling binnen krijgt?</p>
+	     <p>een astronaut op het ISS krijgt per dag evenveel Straling binnen als een persoon die duizende bananen tegelijk zal eten
+  </div>
+</main>
+
+
+<section>
+    <h2></h2>
+    <p></p>
+</section>
+
+<footer>
+</footer>
+
+</body>
+</html>
